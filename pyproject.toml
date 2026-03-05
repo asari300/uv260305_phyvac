@@ -1,0 +1,26 @@
+[project]
+name = "uv260305-phyvac"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "marimo>=0.20.4",
+    "pretty-errors>=1.2.25",
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "rich>=14.3.3",
+    "ruff>=0.15.4",
+    "ty>=0.0.20",
+]
